@@ -1,0 +1,66 @@
+/*Reset*/
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: arial, sans-serif;}
+body{background-color: #FFF; font-family: arial sans-serif;}
+img{width: 100%; height: 100%;}
+a{text-decoration: none; color: #000;}
+ul li{list-style: none;}
+
+/*Color theme gradient or solid*/
+
+.theme-a{background: linear-gradient(to top, rgb(29, 46, 255), rgb(29, 46, 130),  rgb(60, 100, 255));}
+.theme-b{background: linear-gradient(to top, rgb(150, 60, 29), rgb(255, 150, 29), rgb(200, 130, 29));}
+.theme-c{background: linear-gradient(to top, rgb(22, 48, 75), rgb(22, 100, 150), rgb(22, 48, 75));}
+.theme-d{background: linear-gradient(to top, rgb(255, 0, 0), rgb(130, 0, 0),  rgb(255, 10, 20));}
+.theme-e{background: linear-gradient(to top, rgb(29, 200, 0), rgb(30, 255, 0),  rgb(29, 150, 80));}
+.theme-f{background: linear-gradient(to top, rgb(29, 200, 200), rgb(30, 255, 255),  rgb(29, 150, 150));}
+.theme-g{background: linear-gradient(to top, rgb(255, 100, 100), rgb(255, 155, 155),  rgb(255, 50, 50));}
+.theme-h{background: #00f;}
+.theme-j{background: #ff0;}
+.theme-k{background: #f00;}
+.theme-l{background: #0f0;}
+
+@media screen and (min-width: 320px){
+	/*Sistema de Grids*/
+.g-aa, .g-ab, .g-ac, .g-ad, .g-ae, .g-af, .g-ag, .g-ah, .g-ai, .g-aj, .g-ak, .g-ba, .g-bb, .g-bc, .g-bd, .g-be, .g-bf, .g-bg, .g-bh, .g-bi, .g-bj, .g-bk, .g-ca, .g-cb, .g-cc, .g-cd, .g-ce, .g-cf, .g-cg, .g-ch, .g-ci, .g-cj, .g-ck, .g-da, .g-db, .g-dc, .g-dd, .g-de, .g-df, .g-dg, .g-dh, .g-di, .g-dj, .g-dk, .g-ea, .g-eb, .g-ec, .g-ed, .g-ee, .g-ef, .g-eg, .g-eh, .g-ei, .g-ej, .g-ek, .g-fa, .g-fb, .g-fc, .g-fd, .g-fe, .g-ff, .g-fg, .g-fh, .g-fi, .g-fj, .g-fk, .g-ga, .g-gb, .g-gc, .g-gd, .g-ge, .g-gf, .g-gg, .g-gh, .g-gi, .g-gj, .g-gk, .g-ha, .g-hb, .g-hc, .g-hd, .g-he, .g-hf, .g-hg, .g-hh, .g-hi, .g-hj, .g-hk, .g-ia, .g-ib, .g-ic, .g-id, .g-ie, .g-if, .g-ig, .g-ih, .g-ii, .g-ij, .g-ik, .g-ja, .g-jb, .g-jc, .g-jd, .g-je, .g-jf, .g-jg, .g-jh, .g-ji, .g-jj, .g-jk, .g-ka, .g-kb, .g-kc, .g-kd, .g-ke, .g-kf, .g-kg, .g-kh, .g-ki, .g-kj, .g-kk {float: left;} 
+
+.g-aa{width: 100%; height: 100%;} .g-ab{width: 100%; height: 90%;} .g-ac{width: 100%; height: 80%;} .g-ad{width: 100%; height: 70%;} .g-ae{width: 100%; height: 60%;} .g-af{width: 100%; height: 50%;} .g-ag{width: 100%; height: 40%;} .g-ah{width: 100%; height: 30%;} .g-ai{width: 100%; height: 20%;} .g-aj{width: 100%; height: 10%;} .g-ak{width: 100%; height: 5%;} 
+.g-ba{width: 90%; height: 100%;} .g-bb{width: 90%; height: 90%;} .g-bc{width: 90%; height: 80%;} .g-bd{width: 90%; height: 70%;} .g-be{width: 90%; height: 60%;} .g-bf{width: 90%; height: 50%;} .g-bg{width: 90%; height: 40%;} .g-bh{width: 90%; height: 30%;} .g-bi{width: 90%; height: 20%;} .g-bj{width: 90%; height: 10%;} .g-bk{width: 90%; height: 5%;}
+.g-ca{width: 80%; height: 100%;} .g-cb{width: 80%; height: 90%;} .g-cc{width: 80%; height: 80%;} .g-cd{width: 80%; height: 70%;} .g-ce{width: 80%; height: 60%;} .g-cf{width: 80%; height: 50%;} .g-cg{width: 80%; height: 40%;} .g-ch{width: 80%; height: 30%;} .g-ci{width: 80%; height: 20%;} .g-cj{width: 80%; height: 10%;} .g-ck{width: 80%; height: 5%;}
+.g-da{width: 70%; height: 100%;} .g-db{width: 70%; height: 90%;} .g-dc{width: 70%; height: 80%;} .g-dd{width: 70%; height: 70%;} .g-de{width: 70%; height: 60%;} .g-df{width: 70%; height: 50%;} .g-dg{width: 70%; height: 40%;} .g-dh{width: 70%; height: 30%;} .g-di{width: 70%; height: 20%;} .g-dj{width: 70%; height: 10%;} .g-dk{width: 70%; height: 5%;}
+.g-ea{width: 60%; height: 100%;} .g-eb{width: 60%; height: 90%;} .g-ec{width: 60%; height: 80%;} .g-ed{width: 60%; height: 70%;} .g-ee{width: 60%; height: 60%;} .g-ef{width: 60%; height: 50%;} .g-eg{width: 60%; height: 40%;} .g-eh{width: 60%; height: 30%;} .g-ei{width: 60%; height: 20%;} .g-ej{width: 60%; height: 10%;} .g-ek{width: 60%; height: 5%;}
+.g-fa{width: 50%; height: 100%;} .g-fb{width: 50%; height: 90%;} .g-fc{width: 50%; height: 80%;} .g-fd{width: 50%; height: 70%;} .g-fe{width: 50%; height: 60%;} .g-ff{width: 50%; height: 50%;} .g-fg{width: 50%; height: 40%;} .g-fh{width: 50%; height: 30%;} .g-fi{width: 50%; height: 20%;} .g-fj{width: 50%; height: 10%;} .g-fk{width: 50%; height: 5%;}
+.g-ga{width: 40%; height: 100%;} .g-gb{width: 40%; height: 90%;} .g-gc{width: 40%; height: 80%;} .g-gd{width: 40%; height: 70%;} .g-ge{width: 40%; height: 60%;} .g-gf{width: 40%; height: 50%;} .g-gg{width: 40%; height: 40%;} .g-gh{width: 40%; height: 30%;} .g-gi{width: 40%; height: 20%;} .g-gj{width: 40%; height: 10%;} .g-gk{width: 40%; height: 5%;}
+.g-ha{width: 30%; height: 100%;} .g-hb{width: 30%; height: 90%;} .g-hc{width: 30%; height: 80%;} .g-hd{width: 30%; height: 70%;} .g-he{width: 30%; height: 60%;} .g-hf{width: 30%; height: 50%;} .g-hg{width: 30%; height: 40%;} .g-hh{width: 30%; height: 30%;} .g-hi{width: 30%; height: 20%;} .g-hj{width: 30%; height: 10%;} .g-hk{width: 30%; height: 5%;}
+.g-ia{width: 20%; height: 100%;} .g-ib{width: 20%; height: 90%;} .g-ic{width: 20%; height: 80%;} .g-id{width: 20%; height: 70%;} .g-ie{width: 20%; height: 60%;} .g-if{width: 20%; height: 50%;} .g-ig{width: 20%; height: 40%;} .g-ih{width: 20%; height: 30%;} .g-ii{width: 20%; height: 20%;} .g-ij{width: 20%; height: 10%;} .g-ik{width: 20%; height: 5%;}
+.g-ja{width: 10%; height: 100%;} .g-jb{width: 10%; height: 90%;} .g-jc{width: 10%; height: 80%;} .g-jd{width: 10%; height: 70%;} .g-je{width: 10%; height: 60%;} .g-jf{width: 10%; height: 50%;} .g-jg{width: 10%; height: 40%;} .g-jh{width: 10%; height: 30%;} .g-ji{width: 10%; height: 20%;} .g-jj{width: 10%; height: 10%;} .g-jk{width: 10%; height: 5%;}
+.g-ka{width: 5%; height: 100%;} .g-kb{width: 5%; height: 90%;} .g-kc{width: 5%; height: 80%;} .g-kd{width: 5%; height: 70%;} .g-ke{width: 5%; height: 60%;} .g-kf{width: 5%; height: 50%;} .g-kg{width: 5%; height: 40%;} .g-kh{width: 5%; height: 30%;} .g-ki{width: 5%; height: 20%;} .g-kj{width: 5%; height: 10%;} .g-kk{width: 5%; height: 5%;}
+
+
+@media screen and (min-width: 360px){
+
+}
+
+@media screen and (min-width: 480px){
+	.g-aj{height: 15%;}
+}
+
+@media screen and (min-width: 640px){
+
+}
+
+@media screen and (min-width: 768px){
+	.g-aj{height: 6%;}
+}
+
+@media screen and (min-width: 980px){
+
+}
+
+@media screen and (min-width: 1024px){
+	.g-aj{height: 8%;}
+}
+
+@media screen and (min-width: 1280px){
+
+
+}
